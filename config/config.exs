@@ -9,8 +9,8 @@ use Mix.Config
 # third-party users, it should be done in your "mix.exs" file.
 
 # You can configure your application as:
-#
-#     config :nominex, key: :value
+config :nominex,
+  nominatim_url: "https://nominatim.openstreetmap.org/search"
 #
 # and access this configuration in your application as:
 #
